@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<!--select detection item-->
+<detectEye>1</detectEye>
+<detectShadeFace>1</detectShadeFace>
+<detectSideFace>1</detectSideFace>
+<detectSmallImage>1</detectSmallImage>
+<detectBackground>1</detectBackground>
+<detectFaceLightIntensity>1</detectFaceLightIntensity>
+<detectGlasses>1</detectGlasses>
+
+<!-- set detection parameter-->
+<shadeFaceTH>82.0</shadeFaceTH>
+<sideFaceTH>0.42</sideFaceTH>
+<angleEyeTH>5.0</angleEyeTH>
+<forceCorrect>1</forceCorrect>
+<complexTH>65.0</complexTH>
+<minRows>250</minRows>
+<minCols>200</minCols>
+<maxRows>5000</maxRows>
+<maxCols>5000</maxCols>
+
+<d_value>1.2000000000000000e+00</d_value>
+<b_value>1</b_value>
+<b_value2>0</b_value2>
+<f_value>1.2000000476837158e+00</f_value>
+<str>src.jpg</str>
+<resultMat type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>u</dt>
+  <data>
+    6 2 2 2 6 2 2 2 6</data></resultMat>
+<cameraMatrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1000. 0. 320. 0. 1000. 240. 0. 0. 1.</data></cameraMatrix>
+<distCoeffs type_id="opencv-matrix">
+  <rows>5</rows>
+  <cols>1</cols>
+  <dt>d</dt>
+  <data>
+    1.0000000000000001e-01 1.0000000000000000e-02
+    -1.0000000000000000e-03 0. 0.</data></distCoeffs>
+<calibrationDate>"Thu Dec 14 17:07:53 2017&#x0a;"</calibrationDate>
+</opencv_storage>
