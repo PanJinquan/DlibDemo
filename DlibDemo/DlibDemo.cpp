@@ -9,6 +9,7 @@
 #include <dlib/image_processing/render_face_detections.h>
 #include <dlib/image_processing.h>
 #include <dlib/image_io.h>
+#include "unistd.h"
 #include "dlibFaceDetection.h"
 using namespace dlib;
 using namespace std;
